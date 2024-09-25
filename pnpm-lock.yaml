@@ -99,8 +99,8 @@ importers:
         specifier: ^5.16.7
         version: 5.16.7(@emotion/react@11.13.3(@types/react@18.3.4)(react@18.3.1))(@emotion/styled@11.13.0(@emotion/react@11.13.3(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@mui/monorepo':
-        specifier: github:mui/material-ui#263c7259451d5b928bbdfd299c9c0afc89dfec02
-        version: https://codeload.github.com/mui/material-ui/tar.gz/263c7259451d5b928bbdfd299c9c0afc89dfec02(encoding@0.1.13)
+        specifier: github:mui/material-ui#1dce062b753af2164c05ccda0496ca6ba3170487
+        version: https://codeload.github.com/mui/material-ui/tar.gz/1dce062b753af2164c05ccda0496ca6ba3170487(encoding@0.1.13)
       '@mui/utils':
         specifier: ^5.16.6
         version: 5.16.6(@types/react@18.3.4)(react@18.3.1)
@@ -938,7 +938,7 @@ importers:
         version: 4.1.0
       execa:
         specifier: ^9.3.1
-        version: 9.3.1
+        version: 9.4.0
       internmap:
         specifier: ^2.0.3
         version: 2.0.3
@@ -3213,8 +3213,8 @@ packages:
       '@types/react':
         optional: true
 
-  '@mui/monorepo@https://codeload.github.com/mui/material-ui/tar.gz/263c7259451d5b928bbdfd299c9c0afc89dfec02':
-    resolution: {tarball: https://codeload.github.com/mui/material-ui/tar.gz/263c7259451d5b928bbdfd299c9c0afc89dfec02}
+  '@mui/monorepo@https://codeload.github.com/mui/material-ui/tar.gz/1dce062b753af2164c05ccda0496ca6ba3170487':
+    resolution: {tarball: https://codeload.github.com/mui/material-ui/tar.gz/1dce062b753af2164c05ccda0496ca6ba3170487}
     version: 6.1.1
     engines: {pnpm: 9.10.0}
 
@@ -6154,8 +6154,8 @@ packages:
     resolution: {integrity: sha512-VyhnebXciFV2DESc+p6B+y0LjSm0krU4OgJN44qFAhBY0TJ+1V61tYD2+wHusZ6F9n5K+vl8k0sTy7PEfV4qpg==}
     engines: {node: '>=16.17'}
 
-  execa@9.3.1:
-    resolution: {integrity: sha512-gdhefCCNy/8tpH/2+ajP9IQc14vXchNdd0weyzSJEFURhRMGncQ+zKFxwjAufIewPEJm9BPOaJnvg2UtlH2gPQ==}
+  execa@9.4.0:
+    resolution: {integrity: sha512-yKHlle2YGxZE842MERVIplWwNH5VYmqqcPFgtnlU//K8gxuFFXu0pwd/CrfXTumFpeEiufsP7+opT/bPJa1yVw==}
     engines: {node: ^18.19.0 || >=20.5.0}
 
   expand-tilde@2.0.2:
@@ -8096,6 +8096,10 @@ packages:
     resolution: {integrity: sha512-ppwTtiJZq0O/ai0z7yfudtBpWIoxM8yE6nHi1X47eFR2EWORqfbu6CnPlNsjeN683eT0qG6H/Pyf9fCcvjnnnQ==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
+  npm-run-path@6.0.0:
+    resolution: {integrity: sha512-9qny7Z9DsQU8Ou39ERsPU4OZQlSTP47ShQzuKZ6PRXpYLtIFgl/DEBYEXKlvcEa+9tHVcK8CF81Y2V72qaZhWA==}
+    engines: {node: '>=18'}
+
   nprogress@0.2.0:
     resolution: {integrity: sha512-I19aIingLgR1fmhftnbWWO3dXc0hSxqHQHQb3H8m+K3TnEn/iSeTZZOyvKXWqQESMwuUVnatlCnZdLBZZt2VSA==}
 
@@ -9784,6 +9788,10 @@ packages:
 
   unicorn-magic@0.1.0:
     resolution: {integrity: sha512-lRfVq8fE8gz6QMBuDM6a+LO3IAzTi05H6gCVaUpir2E1Rwpo4ZUog45KpNXKC/Mn3Yb9UDuHumeFTo9iV/D9FQ==}
+    engines: {node: '>=18'}
+
+  unicorn-magic@0.3.0:
+    resolution: {integrity: sha512-+QBBXBCvifc56fsbuxZQ6Sic3wqqc3WWaqxs58gvJrcOuN83HGTCwz3oS5phzU9LthRNE9VrJCFCLUgHeeFnfA==}
     engines: {node: '>=18'}
 
   unified@11.0.5:
@@ -12100,12 +12108,12 @@ snapshots:
       '@emotion/styled': 11.13.0(@emotion/react@11.13.3(@types/react@18.3.4)(react@18.3.1))(@types/react@18.3.4)(react@18.3.1)
       '@types/react': 18.3.4
 
-  '@mui/monorepo@https://codeload.github.com/mui/material-ui/tar.gz/263c7259451d5b928bbdfd299c9c0afc89dfec02(encoding@0.1.13)':
+  '@mui/monorepo@https://codeload.github.com/mui/material-ui/tar.gz/1dce062b753af2164c05ccda0496ca6ba3170487(encoding@0.1.13)':
     dependencies:
       '@googleapis/sheets': 9.3.1(encoding@0.1.13)
       '@netlify/functions': 2.8.1
       '@slack/bolt': 3.21.4
-      execa: 9.3.1
+      execa: 9.4.0
       google-auth-library: 9.14.1(encoding@0.1.13)
     transitivePeerDependencies:
       - bufferutil
@@ -15665,7 +15673,7 @@ snapshots:
       signal-exit: 4.1.0
       strip-final-newline: 3.0.0
 
-  execa@9.3.1:
+  execa@9.4.0:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       cross-spawn: 7.0.3
@@ -15674,7 +15682,7 @@ snapshots:
       human-signals: 8.0.0
       is-plain-obj: 4.1.0
       is-stream: 4.0.1
-      npm-run-path: 5.3.0
+      npm-run-path: 6.0.0
       pretty-ms: 9.0.0
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
@@ -18031,6 +18039,11 @@ snapshots:
     dependencies:
       path-key: 4.0.0
 
+  npm-run-path@6.0.0:
+    dependencies:
+      path-key: 4.0.0
+      unicorn-magic: 0.3.0
+
   nprogress@0.2.0: {}
 
   nth-check@2.1.1:
@@ -19913,6 +19926,8 @@ snapshots:
   unicode-property-aliases-ecmascript@2.1.0: {}
 
   unicorn-magic@0.1.0: {}
+
+  unicorn-magic@0.3.0: {}
 
   unified@11.0.5:
     dependencies:
